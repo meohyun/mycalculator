@@ -5,7 +5,7 @@ class CalculatorProvider extends StateNotifier<String>{
   CalculatorProvider(): super("");
 
   String userinput ="";
-  String result = "";
+  String result = "0";
 
   void handleButtons(String text){
     if(text == "AC"){

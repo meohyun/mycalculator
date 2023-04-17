@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mycalculator/controller/calculator_provider.dart';
+import 'package:mycalculator/provider/calculator_provider.dart';
 
 final calculatorNotifierProvider = StateNotifierProvider((ref) {
   return CalculatorProvider();
